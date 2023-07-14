@@ -1,6 +1,6 @@
 {
   “lang”: “fa-IR”,
-  “name”: “ToDo-list-app”,
+  “name”: “Todo-list-app”,
   “short_name”: “ToDo-list”,
   “description”: ”A ToDo-list-app that can save tasks in local storage”,
   “start_url”: “/”,

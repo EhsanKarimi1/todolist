@@ -1,4 +1,4 @@
-const CACHE_NAME = `ToDo-list`;
+const CACHE_NAME = `Todo-list`;
 
 // Use the install event to pre-cache all initial resources.
 self.addEventListener('install', event => {
