@@ -1,11 +1,10 @@
 @font-face{
 font-family: Peyda;
-src:url(asset/fonts/Peyda-Medium.woff2) format("woff2"),
-    url(asset/fonts/Peyda-Medium.woff) format("woff");
+src:url(../webfonts/Peyda-Medium.woff2) format("woff2"),
+    url(../webfonts/Peyda-Medium.woff) format("woff");
 font-weight: 500;
 font-style: normal;
 }
-
 *{
   margin: 0;
   padding: 0;

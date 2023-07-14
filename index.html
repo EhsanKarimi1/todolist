@@ -3,16 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Todo Inbox</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="asset/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=“manifest” href=“/manifest.json”>
-    <link rel="icon" href="asset/icon.png">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="asset/images/icon.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#ff8400" />
+    <meta name="theme-color" content="#ff8400" />
+    <link rel="icon" href="asset/images/icon.png">
+    <link rel="stylesheet" href="asset/css/iconfont.css">
   </head>
   <body>
     <div class="wrapper">
       <div class="task-input">
-          <img src="asset/bars-icon.svg" alt="icon">
+          <img src="asset/images/bars-icon.svg" alt="icon">
         <input type="text" placeholder="وظیفه جدید تعریف کن">
       </div>
       <div class="controls">
@@ -26,12 +29,7 @@
       <ul class="task-box"></ul>
     </div>
 
-    <script src="script.js"></script>
-    <script>
-    if(‘serviceWorker’ in navigator) {
-        navigator.serviceWorker.register(‘/sw.js’, { scope: ‘/’ });
-    }
-    </script>
+    <script src="asset/js/script.js"></script>
 
   </body>
 </html>

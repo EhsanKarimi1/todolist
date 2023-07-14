@@ -27,10 +27,10 @@ function showTodo(filter) {
                                 <p class="${completed}">${todo.name}</p>
                             </label>
                             <div class="settings">
-                                <i onclick="showMenu(this)" class="uil uil-ellipsis-h"></i>
+                                <i onclick="showMenu(this)" class="far fa-ellipsis-h"></i>
                                 <ul class="task-menu">
-                                    <li onclick='editTask(${id}, "${todo.name}")'><i class="uil uil-pen"></i>دستکاری</li>
-                                    <li onclick='deleteTask(${id}, "${filter}")'><i class="uil uil-trash"></i>پاک کردن</li>
+                                    <li onclick='editTask(${id}, "${todo.name}")'><i class="far fa-pen"></i>دستکاری</li>
+                                    <li onclick='deleteTask(${id}, "${filter}")'><i class="far fa-trash"></i>پاک کردن</li>
                                 </ul>
                             </div>
                         </li>`;
@@ -104,3 +104,10 @@ taskInput.addEventListener("keyup", e => {
         showTodo(document.querySelector("span.active").id);
     }
 });
+
+
+if ("serviceWorker" in navigator) {
+  // register service worker
+  navigator.serviceWorker.register("service-worker.js");
+}
+
