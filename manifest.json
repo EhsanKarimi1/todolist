@@ -1,5 +1,5 @@
 {
-  "name": "minimal Todo list",
+  "name": "Todo",
   "short_name": "Todo",
   "start_url": "index.html",
   "display": "standalone",
@@ -9,8 +9,23 @@
   "scope": "./",
   "icons": [
     {
-      "src": "asset/images/icon.png",
-      "sizes": "600x600",
+      "src": "asset/images/icon-v2-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "asset/images/icon-v2-384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "asset/images/icon-v2-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "asset/images/icon-v2-1024.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
   ]
