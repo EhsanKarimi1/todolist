@@ -1,0 +1,17 @@
+{
+  “lang”: “fa-IR”,
+  “name”: “ToDo-list-app”,
+  “short_name”: “ToDo-list”,
+  “description”: ”A ToDo-list-app that can save tasks in local storage”,
+  “start_url”: “/”,
+  “background_color”: “#ff8400”,
+  “theme_color”: “#ff8400”,
+  “orientation”: “any”,
+  “display”: “standalone”,
+  “icons”: [
+      {
+          “src”: “/asset/icon.png”,
+          “sizes”: “600*600”
+      }
+  ]
+}
