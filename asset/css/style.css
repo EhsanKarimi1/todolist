@@ -201,6 +201,7 @@ body{
   }
   .wrapper {
     padding: 20px 0;
+    margin: 50px auto;
   }
   .filters span{
     margin: 0 5px;
